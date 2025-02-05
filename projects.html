@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Your Personal Website">
+    <meta name="author" content="Your Name">
+    <title>Tye Phillips - Personal Website</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header class="bg-white">
+        <nav class="navbar navbar-expand-lg navbar-black">
+            <div class="container-fluid">
+                <a class="navbar-brand " href="index.html">Tye Phillips</a>
+                <a class="nav-link text-black px-3" href="https://www.linkedin.com/in/tye-phillips-92292324b/" target="_blank">
+                    <i class="fab fa-linkedin"></i>
+                  </a>
+                <a class="nav-link text-black"   href="https://github.com/tyephillips" target="_blank" class="text-decoration-none">
+                    <i class="fab fa-github"></i>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse text-white" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+                        <li class="nav-item"><a class="nav-link" href="projects.html">Projects</a></li>
+                        <li class="nav-item"><a class="nav-link" href="skills.html">Skills</a></li>
+                        <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <img src="project_banner.jpg" class="img-fluid" alt="Banner">
+
+    <main class="container mt-5">
+        <section id="projects" class="text-center">
+            <div class="row mt-4">
+                <div>
+                    <h2>Music Band Website (Django Web Application)</h2>
+                    <p>Developed a dynamic and responsive website for a fictional music band.
+                        Implemented features such as event scheduling, band member profiles, and
+                        music galleries using Django.
+                        Integrated a SQLite database to store event and user data.
+                        Designed a user-friendly interface with HTML, CSS, and Bootstrap.
+                        Demonstrated full-stack development by handling both front-end and
+                        back-end logic.</p>
+                </div>
+                <div class="col-md-6 py-5">
+                    <img src="HomePage.png" class="img-fluid" alt="Home Page">
+                </div>
+                <div class="col-md-6 py-5">
+                    <img src="eventspage.png" class="img-fluid" alt="Events Page">
+                </div>
+                <hr>
+                <div>
+                    <h2>Poll App</h2>
+                    <p>Poll App (Django Web Application)
+                        Created a voting system where users can cast votes and view poll results in
+                        real-time.
+                        Utilized Django for back-end functionality and SQLite for data management.
+                        Focused on clean code and modular design principles for maintainability            
+                    </p>
+                </div>
+                <div class="col-md-6 py-5">
+                    <img src="home.png" class="img-fluid" alt="Home Page">
+                </div>
+                <div class="col-md-6 py-5">
+                    <img src="userlogin.png" class="img-fluid" alt="User Login Page">
+                </div>
+                <div class="col-md-6 py-5">
+                    <img src="polls.png" class="img-fluid" alt="Poll Page">
+                </div>
+                <div class="col-md-6 py-5">
+                    <img src="voting.png" class="img-fluid" alt="Voting Page">
+                </div>
+
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-white text-center py-3 ">
+        <p class="text-black">&copy; 2025 Tye Phillips. All rights reserved.</p>
+    </footer>
+</body>
+</html>
